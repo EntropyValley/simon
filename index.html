@@ -35,13 +35,14 @@
             </div>
         </nav>
 
-        <main>
+        <main id="login">
             <h1>Welcome</h1>
             <p>Login to play</p>
             <form method="get" action="play.html">
-                <label for="name">Name</label>
-                <input type="text" id="name" placeholder="Name" />
-                <button type="submit">Login</button>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Name" aria-label="Name">
+                    <button class="btn btn-primary" type="submit">Login</button>
+                </div>
             </form>   
         </main>
 

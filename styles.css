@@ -9,7 +9,7 @@ body {
     min-height: 100vh;
 }
 
-#login, #about, #simon, #simon-center {
+#login, #about, #simon, #simon-center, #table {
     position: absolute;
     top: 50%;
     left: 50%;

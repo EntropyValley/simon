@@ -9,7 +9,7 @@ body {
     min-height: 100vh;
 }
 
-#login, #about, #simon {
+#login, #about, #simon, #simon-center {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -28,6 +28,50 @@ body {
     width: min(72vw, 72vh);
     background: black;
     border-radius:50%;
+}
+
+#simon-center {
+    height: min(25vw, 25vh);
+    width: min(25vw, 25vh);
+    background: black;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+#simon-title {
+    position: absolute;
+    top: min(4vw, 4vh);
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: min(4vw, 4vh);
+    font-weight: bold;
+}
+
+#simon-count {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    height: min(4vw, 4vh);
+    width: min(12vw, 12vh);
+    border-radius: min(1vw, 1vh);
+    transform: translate(-50%);
+    background: darkred;
+    border: min(0.25vw, 0.25vh) solid red;
+    text-align: center;
+    font-size: min(2vw, 2vh);
+    color: red;
+}
+
+#simon-reset {
+    position: absolute;
+    bottom: min(4vw, 4vh);
+    left: 50%;
+    height: min(5vw, 5vh);
+    width: min(12vw, 12vh);
+    padding: min(1vw, 1vh);
+    border-radius: min(1vw, 1vh);
+    font-size: min(2vw, 2vh);
+    transform: translateX(-50%);
 }
 
 .simon-button {

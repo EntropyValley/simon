@@ -9,7 +9,7 @@ body {
     min-height: 100vh;
 }
 
-#login {
+#login, #about {
     position: absolute;
     top: 50%;
     left: 50%;

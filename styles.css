@@ -9,11 +9,62 @@ body {
     min-height: 100vh;
 }
 
-#login, #about {
+#login, #about, #simon {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
     text-align: center;
     color: white;
+}
+
+#players {
+    text-align: center;
+    color: white;
+}
+
+#simon {
+    height: min(72vw, 72vh);
+    width: min(72vw, 72vh);
+    background: black;
+    border-radius:50%;
+}
+
+.simon-button {
+    position: absolute;
+    height: min(33vw, 33vh);
+    width: min(33vw, 33vh);
+    border: min(0.75vw,0.75vh) solid;
+}
+
+#simon-top-left {
+    top: min(2vw, 2vh);
+    left: min(2vw, 2vh);
+    background: green;
+    border-color: darkgreen;
+    border-top-left-radius:100%;
+}
+
+#simon-top-right {
+    top: min(2vw, 2vh);
+    right: min(2vw, 2vh);
+    background: red;
+    border-color: darkred;
+    border-top-right-radius:100%;
+}
+
+#simon-bottom-left {
+    bottom: min(2vw, 2vh);
+    left: min(2vw, 2vh);
+    background: yellow;
+    border-color: #c5be2a;
+    border-bottom-left-radius:100%;
+}
+
+#simon-bottom-right {
+    bottom: min(2vw, 2vh);
+    right: min(2vw, 2vh);
+    background: blue;
+    border-color: darkblue;
+    border-bottom-right-radius:100%;
 }

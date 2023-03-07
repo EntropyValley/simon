@@ -84,7 +84,7 @@ body {
 #simon-top-left {
     top: min(2vw, 2vh);
     left: min(2vw, 2vh);
-    background: green;
+    background-color: rgb(0, 128, 0);
     border-color: darkgreen;
     border-top-left-radius:100%;
 }
@@ -92,7 +92,7 @@ body {
 #simon-top-right {
     top: min(2vw, 2vh);
     right: min(2vw, 2vh);
-    background: red;
+    background-color: rgb(128, 0, 0);
     border-color: darkred;
     border-top-right-radius:100%;
 }
@@ -100,15 +100,15 @@ body {
 #simon-bottom-left {
     bottom: min(2vw, 2vh);
     left: min(2vw, 2vh);
-    background: yellow;
-    border-color: #c5be2a;
+    background-color: rgb(128, 128, 0);
+    border-color: rgb(157 157 11);
     border-bottom-left-radius:100%;
 }
 
 #simon-bottom-right {
     bottom: min(2vw, 2vh);
     right: min(2vw, 2vh);
-    background: blue;
-    border-color: darkblue;
+    background-color: rgb(0, 0, 128);
+    border-color: rgb(16 16 135);;
     border-bottom-right-radius:100%;
 }
